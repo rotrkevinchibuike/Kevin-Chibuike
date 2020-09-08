@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(16, 178, 199);
+}
+
+body{
+      padding: 0px;
+      margin: 0px;
+}
+
+.container {
+      width: 100%;
+      min-height: 600px;
+}
+
+.container .header{
+      width: 246px;
+      text-align: center;
+      min-height: 45px;
+      background-color: grey;
+      padding: 4px;
+}
+
+.container .header h1{
+      width: 246px;
+      height: 37px;
+      display: inline-block;
+      vertical-align: top;
+      color: lawngreen;
+      padding: 0px;
+      margin: 0px;
+}
+
+.container .about {
+      width: 100%;
+      text-align: center;
+      min-height: 50px;
+      background-color: #fff;
+      padding: 5px;
+}
+
+.container .about .image {
+      width: 45%;
+      height: 48px;
+      display: inline-block;
+      vertical-align: top;
+      color: silver;
+      padding: 4px;
+}
+
+.container .about .text {
+      width: 45%;
+      height: 48px;
+      display: inline-block;
+      vertical-align: top;
+      color: snow;
+      padding: 4px;
+      text-align: justify;
+}
+
+.container .about .text p1{
+      text-transform: capitalize;
+      font-weight: bold;
+}
+
+.container .navigation{
+      width: 70%;
+      height: 40px;
+      display: inline-block;
+      vertical-align: sub;
+
+}
+
+.container .navigation ui{
+      list-style-type: none;
+      background-color: rgb(187, 174, 187);
+      list-style-position: unset;
+      padding: 0px;
+      font-size: 15px;
+}
+
+.container .navigation ui li{
+      display: inline-block;
+      width: 10%;
+      height: 25px;
+      padding: 5px;
+      font-size: 16px;
+
+}
+
+.container .navigation ui li a{
+      text-decoration: none;
+}
+      
